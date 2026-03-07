@@ -502,6 +502,7 @@ figcaption {
   height: 620px;
   margin-bottom: 0;
   display: flex;
+  flex-shrink: 0;
 }
 
 .intro-header.cc-subpage {
@@ -1476,6 +1477,8 @@ figcaption {
   padding: 14px 28px;
   border-bottom: 2px solid #6f0f0f;
   box-sizing: border-box;
+  display: block;
+  position: relative;
+  margin-top: 0;
+  flex-shrink: 0;
 }
-
-
